@@ -1,0 +1,81 @@
+/* the css rules for menus.html */
+/* Name: Imran Dawud */
+
+div{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+   
+}
+
+#content{
+	width: 70%; /*Shifts the main page with the poems from the right side and readjusts its size */
+	float: right;
+}
+
+#parent{
+	overflow: hidden;
+	background-color: grey;
+	position: fixed; /*Box with the hyperlinks will be stuck so it will scroll with you*/
+	left: 0;
+	width: 20%;
+}
+
+div#div1{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	background-color: red;
+	border-style: dotted solid double dashed;
+}
+
+div#div2{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	background-color: orange;
+	border-style: dotted solid double dashed;
+}
+
+div#div3{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	background-color: red;
+	border-style: dotted solid double dashed;
+}
+
+div#div4{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	background-color: orange;
+	border-style: dotted solid double dashed;
+}
+
+/* When hovering mouse over link, changes colors */
+a:hover{
+	color: black;
+}
+
+/* If link is selected, like when you click on it*/
+a:active{
+	color: yellow;
+}
+
+
+/*header styles*/
+h3{
+	font-style: oblique;
+}
+
+p{ /*paragraph stles*/
+	font-family: "Times New Roman";
+	font-size: 15px;
+	font-style: oblique;
+}
+
